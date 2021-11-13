@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test_Runner2(failed)">
+    <classes>
+      <class name="com.vtiger.testcases.OrganizationTest">
+        <methods>
+          <include name="orgAccCreateTest"/>
+          <include name="closeBrowser"/>
+          <include name="connectDB"/>
+          <include name="openBrowser"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="disconnectDB"/>
+        </methods>
+      </class> <!-- com.vtiger.testcases.OrganizationTest -->
+    </classes>
+  </test> <!-- Test_Runner2(failed) -->
+  <test thread-count="5" parallel="tests" name="Test_Runner1(failed)">
+    <classes>
+      <class name="com.vtiger.testcases.OrganizationTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="connectDB"/>
+          <include name="openBrowser"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="disconnectDB"/>
+          <include name="orgIndustryTest"/>
+        </methods>
+      </class> <!-- com.vtiger.testcases.OrganizationTest -->
+    </classes>
+  </test> <!-- Test_Runner1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,14 @@
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name="smokeTest" /> 
+			
+		</run>
+	</groups>
+	<test thread-count="5" name="Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.vtiger.testcases.OrganizationTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

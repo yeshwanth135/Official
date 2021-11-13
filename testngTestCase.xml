@@ -1,0 +1,11 @@
+<suite name="Suite" parallel="classes">
+	<test thread-count="5" name="Test">
+		<listeners>
+			<listener class-name="com.vtiger.genericutil.ListenersImp" />
+		</listeners>
+		<classes>
+			<class name="com.mytiger.testcases.Lead_Tc_17" />
+			<class name="com.mytiger.testcases.Lead_Tc_16" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,11 @@
+<suite parallel="classes" name="Suite">
+	<test name="Test">
+		<classes>
+			<class name="com.mytiger.testcases.Lead_Tc_20" />
+			<class name="com.mytiger.testcases.Lead_Tc_19" />
+			<class name="com.mytiger.testcases.Lead_Tc_18" />
+			<class name="com.mytiger.testcases.Lead_Tc_17" />
+			<class name="com.mytiger.testcases.Lead_Tc_16" />
+		</classes>
+	</test>
+</suite>
